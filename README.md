@@ -25,10 +25,26 @@ pip install topsisAnant102003755
 from topsis.topsis import topsis
 
 # Weights and Impacts are accepted in both list and string format
-df = topsis.calculate("sample.csv", "0.25,0.25,0.25,0.25", "+,+,-,+", output_file="output.csv", verbose = True, force=True)
+df = topsis.calculate(
+    "sample.csv",
+    "0.25,0.25,0.25,0.25",
+    "+,+,-,+",
+    output_file="output.csv",
+    verbose=True,
+    force=True,
+)
 
 # OR
-df = topsis.calculate("sample.csv", [0.25,0.25,0.25,0.25], ['+','+','-','+'], output_file="output.csv", verbose = True, force=True)
+
+df = topsis.calculate(
+    "sample.csv",
+    [0.25, 0.25, 0.25, 0.25],
+    ["+", "+", "-", "+"],
+    output_file="output.csv",
+    verbose=True,
+    force=True,
+)
+
 ```
 
 #### Output
