@@ -17,6 +17,23 @@ pip install topsisAnant102003755
 
 ## Usage
 
+#### sample.csv
+
+A csv file showing data for different mobile handsets having varying features.
+
+| Model  | Storage space(in gb) | Camera(in MP)| Price(in $)  | Looks(out of 5) |
+| :----: |:--------------------:|:------------:|:------------:|:---------------:|
+| Mobile 1 | 16 | 12 | 250 | 5 |
+| Mobile 2 | 16 | 8  | 200 | 3 |
+| Mobile 3 | 32 | 16 | 300 | 4 |
+| Mobile 4 | 32 | 8  | 275 | 4 |
+| Mobile 5 | 16 | 16 | 225 | 2 |
+
+```
+weights vector = [ 0.25 , 0.25 , 0.25 , 0.25 ]
+impacts vector = [ + , + , - , + ]
+```
+
 * ### Using as python module
 
 #### Input
@@ -69,16 +86,7 @@ topsis -i <csv file name> -w=<weights vector> -p=<impacts vector> -o <output fil
 ```
 
 #### Arguments
-
-* -i, --input: csv file name
-* -w, --weights: weights vector
-* -p, --impacts: impacts vector
-* -o, --output: output file name
-* -f, --force: force overwrite of output file
-
-#### Help
-    
-```bash
+```sh
 $ topsis -h
 
 usage: topsis [-h] -i INPUT [-o OUTPUT] [-w WEIGHTS] [-p IMPACTS] [-f]
@@ -98,31 +106,13 @@ optional arguments:
   -f, --force           Overwrite output file if it already exists
 ```
 
-<hr>
-
-## Example
-
-#### sample.csv
-
-A csv file showing data for different mobile handsets having varying features.
-
-| Model  | Storage space(in gb) | Camera(in MP)| Price(in $)  | Looks(out of 5) |
-| :----: |:--------------------:|:------------:|:------------:|:---------------:|
-| Mobile 1 | 16 | 12 | 250 | 5 |
-| Mobile 2 | 16 | 8  | 200 | 3 |
-| Mobile 3 | 32 | 16 | 300 | 4 |
-| Mobile 4 | 32 | 8  | 275 | 4 |
-| Mobile 5 | 16 | 16 | 225 | 2 |
-
-weights vector = [ 0.25 , 0.25 , 0.25 , 0.25 ]
-
-impacts vector = [ + , + , - , + ]
-
 ### Input:
 
 ```python
 topsis -i mydata.csv -w="0.25,0.25,0.25,0.25" -p="+,+,-,+" -o output.csv -f
 ```
+   
+
 
 ### Output:
 ```md
@@ -142,8 +132,9 @@ Top 5 attributes with highest topsis score:
 
 ``` 
 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT
