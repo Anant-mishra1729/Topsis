@@ -21,7 +21,7 @@ pip install topsisAnant102003755
 
 A csv file showing data for different mobile handsets having varying features
 
-| Model  | Storage space (in gb) | Camera (in MP)| Price (in $)  | Looks (out of 5) |
+| Model  | Storage space (in GB) | Camera (in MP)| Price (in $)  | Looks (out of 5) |
 | :----: |:--------------------:|:------------:|:------------:|:---------------:|
 | Mobile 1 | 16 | 12 | 250 | 5 |
 | Mobile 2 | 16 | 8  | 200 | 3 |
@@ -30,7 +30,7 @@ A csv file showing data for different mobile handsets having varying features
 | Mobile 5 | 16 | 16 | 225 | 2 |
 
 we want to select best mobile phone according to our needs
-|  | Storage space(in gb) | Camera(in MP)| Price(in $)  | Looks(out of 5) |
+|  | Storage space (in GB) | Camera (in MP)| Price (in $)  | Looks (out of 5) |
 |:---------:|:--------------------:|:------------:|:------------:|:---------------:|
 | Weights (Importance) | 0.25 | 0.25 | 0.25 | 0.25 |
 | Impact (Increase/Decrease value) | + | + | - | + |
