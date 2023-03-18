@@ -8,10 +8,19 @@
 ## Description
 This is a python library for calculating the **Topsis score of a given csv/excel file.** It takes the csv file name, weights vector and impacts vector as input and returns the Topsis score and rank of each row in the csv file.
 
-## Installation ([PyPI](https://pypi.org/project/topsisAnant102003755/))
+## Installation 
+### Using pip ([PyPI](https://pypi.org/project/topsisAnant102003755/))
     
 ```sh
 pip install topsisAnant102003755
+```
+### Using releases .whl
+* Download ```topsisAnant102003755-1.2-py3-none-any.whl``` from releases
+* Create separate python environment to avoid package conflicts
+```sh
+python -m venv env
+source /env/activate
+python install topsisAnant102003755-1.2-py3-none-any.whl
 ```
 
 
