@@ -19,7 +19,7 @@ pip install topsisAnant102003755
 
 #### sample.csv
 
-A csv file showing data for different mobile handsets having varying features.
+A csv file showing data for different mobile handsets having varying features
 
 | Model  | Storage space(in gb) | Camera(in MP)| Price(in $)  | Looks(out of 5) |
 | :----: |:--------------------:|:------------:|:------------:|:---------------:|
@@ -28,6 +28,13 @@ A csv file showing data for different mobile handsets having varying features.
 | Mobile 3 | 32 | 16 | 300 | 4 |
 | Mobile 4 | 32 | 8  | 275 | 4 |
 | Mobile 5 | 16 | 16 | 225 | 2 |
+
+we want to select best mobile phone according to our needs
+| Storage space(in gb) | Camera(in MP)| Price(in $)  | Looks(out of 5) |
+|:--------------------:|:------------:|:------------:|:---------------:|
+| 0.25 | 0.25 | 0.25 | 0.25 |
+| + | + | - | + |
+
 
 ```
 weights vector = [ 0.25 , 0.25 , 0.25 , 0.25 ]
