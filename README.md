@@ -2,7 +2,7 @@
 
 <div>
 <a href = "https://pepy.tech/project/topsisanant102003755/"><img src = "https://static.pepy.tech/personalized-badge/topsisanant102003755?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads" width = 115/></a>&nbsp;
-<img alt="PyPI" src="https://img.shields.io/pypi/v/topsisanant102003755" width = 80>
+<a href = "https://pypi.org/project/topsisAnant102003755/"><img alt="PyPI" src="https://img.shields.io/pypi/v/topsisanant102003755" width = 80></a>
 </div>
 
 ## Description
