@@ -1,17 +1,16 @@
 # Topsis Score Calculator
 
 <div>
-<img src = "https://static.pepy.tech/personalized-badge/topsisanant102003755?period=total&units=international_system&left_color=blue&right_color=grey&left_text=Downloads" width = 120/> 
+<img src = "https://static.pepy.tech/personalized-badge/topsisanant102003755?period=total&units=international_system&left_color=blue&right_color=grey&left_text=Downloads" width = 115/>&nbsp;
+<img alt="PyPI" src="https://img.shields.io/pypi/v/topsisanant102003755" width = 80>
 </div>
 
 ## Description
 This is a python library for calculating the **Topsis score of a given csv/excel file.** It takes the csv file name, weights vector and impacts vector as input and returns the Topsis score and rank of each row in the csv file.
 
-## Installation
-
-Using package manager [pip](https://pip.pypa.io/en/stable/)  install topsisAnant102003755.
+## Installation ([PyPI](https://pypi.org/project/topsisAnant102003755/))
     
-```bash
+```sh
 pip install topsisAnant102003755
 ```
 
@@ -48,7 +47,7 @@ df = topsis.calculate(
 ```
 
 #### Output
-```
+```md
 
 Top 5 attributes with highest topsis score:
 +-------------------------+-----------------+-----------------+----------+---------+----------------+--------+
@@ -126,7 +125,7 @@ topsis -i mydata.csv -w="0.25,0.25,0.25,0.25" -p="+,+,-,+" -o output.csv -f
 ```
 
 ### Output:
-```
+```md
 Weights:  [0.25 0.25 0.25 0.25]
 Impacts:  ['+' '+' '-' '+']
 
